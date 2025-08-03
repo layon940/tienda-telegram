@@ -10,7 +10,7 @@ const products = [
 
 bot.onText(/\/start/, (msg) => {
   bot.sendMessage(msg.chat.id,
-    '¡Hola! Soy *Mi Tienda* 🛍️\nEscribe /productos para ver lo que vendemos.',
+    '¡Hola! Soy *TeleTienda* 🛍️\nEscribe /productos para ver lo que vendemos.',
     { parse_mode: 'Markdown' });
 });
 
